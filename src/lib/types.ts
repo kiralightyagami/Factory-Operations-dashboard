@@ -23,3 +23,6 @@ export const JOB_STATUSES: JobStatus[] = [
   "Delayed",
   "Completed",
 ];
+
+export type SortField = "dueDate" | "quantity";
+export type SortOrder = "asc" | "desc";
